@@ -1,0 +1,18 @@
+main: net.dxtrus.maintenance.Maintenance
+name: Maintenance
+version: 1.0.0.0
+authors: [DxtrusJonesy]
+
+
+commands:
+    maintenance:
+        aliases: [maint]
+        description: Check maintenance status, or toggle it!
+        usage: /<command> [on | enable | off | disable | reload]
+        permission: maintenance.use
+
+permissions:
+    maintenance.use:
+        default: op
+    maintenance.toggle:
+        default: op

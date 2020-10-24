@@ -1,0 +1,18 @@
+messages:
+    no-permission: "&cInsufficient Permission"
+    invalid-args: "&9Maintenance &8> &cInvalid argument(s)."
+    maintenance:
+        status: "&9Maintenance &8> &7Maintenance is currently &c{0}&7."
+        already-enabled: "&9Maintenance &8> &7Maintenance is already on."
+        already-disabled: "&9Maintenance &8> &7Maintenance is already off."
+        toggled: "79Maintenance &8> &7Maintenance is now &c{0}&7."
+    commands:
+        reload-success: "&9Maintenance &8> &aConfigs Reloaded."
+    disallow-message:
+      - "&9SERVERNAME"
+      - " "
+      - "&cMaintenance is currently enabled."
+      - "&cPlease try again later."
+      - " "
+      - "&9&nContact Us:"
+      - "&chttps://www.example.com/contact-us/"

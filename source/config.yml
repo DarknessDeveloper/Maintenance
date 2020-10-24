@@ -1,0 +1,5 @@
+maintenance:
+    enabled: false
+    bypass:
+        enabled: true
+        permission: maintenance.bypass
